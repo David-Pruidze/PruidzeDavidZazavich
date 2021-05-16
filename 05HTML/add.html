@@ -9,19 +9,19 @@
 <form action="https://fe.it-academy.by/TestForm.php" method="post|get" name="user_data">
 <fieldset>
   <legend>Личные данные</legend>
-      <p><input required AUTOFOCUS type="text" placeholder="Фамилия" size="25"></p>
-      <p><input required type="text" placeholder="Имя" size="20"></p>
+      <label><input required AUTOFOCUS type="text" placeholder="Фамилия" size="25"></label>
+      <label><input required type="text" placeholder="Имя" size="20"></label>
   <p><input required type="text" placeholder="Отчество" size="24"></p>
     <fieldset>
       <legend>Паспортные данные</legend>
-      <p>Серия паспорта - только заглавные латинские буквы с длиной 2 и максимальнымм количеством символов 2, количество букв не менее 2, обязательное поле.</p>
-     <p>Номер паспорта- только цифры с длиной 7 и максимальным кол-вом символов 7, количество цифр не менее 7, обязательное поле.</p>
+      <label>Серия паспорта - только заглавные латинские буквы с длиной 2 и максимальнымм количеством символов 2, количество букв не менее 2, обязательное поле.</label>
+     <label>Номер паспорта- только цифры с длиной 7 и максимальным кол-вом символов 7, количество цифр не менее 7, обязательное поле.</label>
       <input type="text" maxlength="2" required size="5">
-      <p><input type="text" maxlength="7" min="0" max="9" required size="7"></fieldset>
+      <label><input type="text" maxlength="7" min="0" max="9" required size="7"></label></fieldset>
         <fieldset>
       <legend>Дата рождения</legend>
-      <p><input type="text" size="4px"> Год рождения 4-е цифры.</p>
-      <p><select size="1" name="Месяц рождения.">
+      <label><input type="text" size="4px"> Год рождения 4-е цифры.</label>
+      <label><select size="1" name="Месяц рождения.">
         <option value="January">January</option>
         <option value="February">February</option>
         <option value="March">March</option>
@@ -33,15 +33,15 @@
         <option value="September">September</option>
         <option value="October">October</option>
         <option value="November">November</option>
-        <option value="December">December</option></select></p>
+        <option value="December">December</option></select></label>
             <p><input type="number" maxlength="31" min="1" max="31"> Число рождения.</p>
       <fieldset>
         <select size="1" required>
           <option value="РБ">РБ</option>
           <option value="Рос">Рос</option>
         </select>
-        <p style="display: inline-block">Национальность- выбор одного значения из списка, обязательно поле.</p>
-        <p>Адрес:</p>
+        <label style="display: inline-block">Национальность- выбор одного значения из списка, обязательно поле.</label>
+        <label>Адрес:</label>
           <input type="text" required>
       </fieldset>
     </fieldset>
