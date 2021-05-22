@@ -1,0 +1,54 @@
+.one{
+    background-image:url("../cards.png");
+    width: 140px;
+    height: 200px ;
+    background-position-x: 430px;
+    background-position-y: -200px;
+}
+.two{
+    background-image:url("../cards.png");
+    width: 140px;
+    height: 200px ;
+    background-position-x: 140px;
+    background-position-y: -597px;
+}
+.three{
+    background: url("../cards.png") no-repeat;
+    width: 140px;
+    height: 200px ;
+    background-position-x: -287px;
+    background-position-y: -987px;
+}
+p{background: url("../cards.png") no-repeat;
+    height: 196px;
+    width: 146px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.krest{ background-position-x: -287px;
+    background-position-y: -987px;}
+.buba{background-position-x: -427px;
+    background-position-y: -589px;
+}
+.chirva{background-position-x: -140px;
+    background-position-y: -191px;}
+
+.fi{background: url(../cards.png) no-repeat;
+    width: 140px;
+    height: 200px;
+    background-position-x: -146px;
+    background-position-y: -200px;
+    float: left;}
+.dva{background: url(../cards.png) no-repeat;
+    /* width: 140px; */
+    height: 200px;
+    background-position-x: -313px;
+    background-position-y: -596px;
+
+}
+.ok{background: url(../cards.png) no-repeat;
+    width: 140px;
+    height: 200px;
+    background-position-x: -510px;
+    background-position-y: -996px;
+    float: left;}

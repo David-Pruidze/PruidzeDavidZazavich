@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<HTML lang="ru">
+<HEAD>
+    <META charset="utf-8">
+    <TITLE>Пример страницы</TITLE>
+    <style>
+        ul{list-style: upper-roman;
+            white-space: pre-line;
+            background-color: black;
+            color: green;
+            width: 400px;
+            overflow: hidden;
+            }
+        li ul {
+            list-style-type: lower-roman; /* Цифры i, ii, iii,… */
+            white-space: pre-line;
+            background-color: black;
+            color: green;
+            width: 400px;
+            overflow: auto;
+                   }
+        .li{list-style-type: lower-roman; /* Цифры i, ii, iii,… */
+            white-space: nowrap;
+                       width: 350px;}
+    </style>
+</HEAD>
+<BODY>
+
+ <ul>
+     <li>Контейнер с кодом
+         <ul>
+             <li>#!/usr/bin/env python</li>
+             <li>print 'Hello. I am a python program.'</li>
+             <li>name = raw_input("What is your name?")</li>
+             <li>print "Hello there, " + name + "!"</li>
+         </ul>
+     </li>
+     <li>Список
+        <ul class="li">
+             <li>#!/usr/bin/env python</li>
+             <li>print 'Hello. I am a python program.'</li>
+             <li>name = raw_input("What is your name?")</li>
+             <li>print "Hello there, " + name + "!"</li>
+        </ul>
+     </li>
+ </ul>
+
+</BODY>
+</HTML>
