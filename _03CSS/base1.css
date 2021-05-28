@@ -1,0 +1,14 @@
+.menu{display: block;
+    width: 600px;
+
+    float: none;
+}
+.sub-menu{display: block;
+    width: 200px;
+
+    float: none;
+}
+.eating{display: block;
+}
+.dinner{display: block;
+    float: right}
