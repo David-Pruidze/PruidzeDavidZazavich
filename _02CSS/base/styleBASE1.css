@@ -39,16 +39,23 @@ p{background: url("../cards.png") no-repeat;
     background-position-x: -146px;
     background-position-y: -200px;
     float: left;}
-.dva{background: url(../cards.png) no-repeat;
-    /* width: 140px; */
-    height: 200px;
-    background-position-x: -313px;
-    background-position-y: -596px;
-
-}
-.ok{background: url(../cards.png) no-repeat;
+.dva{    background: url(../cards.png) no-repeat;
     width: 140px;
     height: 200px;
-    background-position-x: -510px;
+    background-position-x: -287px;
+    background-position-y: -596px;
+    float: left;
+    margin-left: -70px;
+}
+
+
+.ok{
+    background: url(../cards.png) no-repeat;
+    width: 140px;
+    height: 200px;
+    background-position-x: -429px;
     background-position-y: -996px;
-    float: left;}
+    float: left;
+    margin-left: -92px;
+}
+
