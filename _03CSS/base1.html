@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box}
+        .menu{width: 1200px}
+        .sub-menu{width: 200px;
+                    float: left;
+        }
+        .eating{background: gray;
+        border: solid 4px;
+        border-radius: 10px;
+        }
+        .dinner{background: cadetblue;
+            border: solid 4px;
+            border-radius: 10px;}
+
+        .sub-menu:hover  .hide-menu{display: block;
+        transition: linear 1s;
+        width: auto;
+        height: auto;
+        opacity: 1}
+        .hide-menu{opacity: 0;
+            transition: linear 1s;
+            }
+
+
+        @media screen and (max-device-width: 500px)
+        {
+            .menu{display: block;
+                width: 600px;
+
+                float: none;
+            }
+            .sub-menu{display: block;
+                width: 300px;
+                float: none;
+            }
+            .eating{display: block;
+            }
+            .dinner{display: block;
+                float: right;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="menu">
+<div class="sub-menu">
+    <div class="eating">Понедельник</div>
+    <div class="hide-menu">
+        <div class="dinner">Завтрак</div>
+        <div class="dinner">Обед</div>
+        <div class="dinner">Ужин</div>
+    </div>
+</div>
+   <div class="sub-menu">
+        <div class="eating">Вторник</div>
+        <div class="hide-menu">
+            <div class="dinner">Завтрак</div>
+            <div class="dinner">Обед</div>
+            <div class="dinner">Ужин</div>
+        </div>
+    </div>
+    <div class="sub-menu">
+        <div class="eating">Среда</div>
+        <div class="hide-menu">
+            <div class="dinner">Завтрак</div>
+            <div class="dinner">Обед</div>
+            <div class="dinner">Ужин</div>
+        </div>
+    </div>
+    <div class="sub-menu">
+        <div class="eating">Четверг</div>
+        <div class="hide-menu">
+            <div class="dinner">Завтрак</div>
+            <div class="dinner">Обед</div>
+            <div class="dinner">Ужин</div>
+        </div>
+    </div>
+    <div class="sub-menu">
+        <div class="eating">Пятница</div>
+        <div class="hide-menu">
+            <div class="dinner">Завтрак</div>
+            <div class="dinner">Обед</div>
+            <div class="dinner">Ужин</div>
+        </div>
+    </div>
+    <div class="sub-menu">
+        <div class="eating">Суббота</div>
+        <div class="hide-menu">
+            <div class="dinner">Завтрак</div>
+            <div class="dinner">Обед</div>
+            <div class="dinner">Ужин</div>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

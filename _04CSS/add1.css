@@ -1,0 +1,17 @@
+p:nth-child(2) a:nth-child(1){background: url(pic/extref.png) no-repeat  ;
+    padding-left: 15px}
+p:nth-child(2) a:nth-child(3)::after {
+    content: url(pic/logo-doc.jpg);
+}
+p:nth-child(3) a:nth-child(1){background: url(pic/extref.png) no-repeat  ;
+    padding-left: 15px}
+p:nth-child(3) a:nth-child(3)::after {
+    content: url(pic/logo-pdf.png);}
+p:nth-child(4) a:nth-child(1){background: url(pic/extref.png) no-repeat  ;
+    padding-left: 15px}
+p:nth-child(4) a:nth-child(3)::after {
+    content: url(pic/logo-zip.gif);}
+ul{list-style-image: url(pic/logo-list.jpg)}
+ul>li:nth-child(1) a:hover::after{ content: url(pic/logo-doc.jpg);}
+ul>li:nth-child(2) a:hover::after{ content: url(pic/logo-pdf.png);}
+ul>li:nth-child(3) a:hover::after{ content: url(pic/logo-zip.gif);}
